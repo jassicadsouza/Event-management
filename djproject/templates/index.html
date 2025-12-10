@@ -1,0 +1,283 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHINDIGER EVENTS</title>
+    <link rel="stylesheet" href="lightbox.css" />
+    <link rel="stylesheet" href="{% static '/css/style.css'%}"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <style>
+        .containere{
+            margin-left: auto;
+            width: 100%;
+            height: 300px;
+            background-color:#F2B8C6;
+            font-size: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+        
+        }
+        #but{
+            width: 80px;
+            background-color: brown;
+            color: white;
+        }
+        #id_p_name ,#id_p_email,#id_p_phone,#id_p_when,#id_p_events{
+            border: 1px solid black;
+        }
+        </style>
+  </head>
+
+  <body>
+    <header class="head">
+      <a href="#" class="logo"
+        <span>SHINDIGER EVENTS</span>&nbsp; 
+      </a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        
+        <a href="#service">Services</a>
+        <a href="#invite">Gallery</a>
+        <a href="#contact">Reach us</a>
+        <!--------a href="/admin/">Login</a>--------->
+        
+      </nav>
+      <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+    <!--------------------------home section-------------------------->
+    <section class="home" id="home">
+      <div class="Section_top">
+        <div class="content">
+            <h1><span>SHINDIGER EVENTS WELCOMES YOU</span></h1>
+            
+        </div>
+        </div>
+  </section>
+  
+   <!------------------------services-------------------->
+   <section class="service" id="service"  >
+    <div class="title">
+        <h1><span>S</span>ervice</h1>
+    </div>
+   
+    <div class="services-row">
+        <div class="services-col">
+            <i class="fas fa-book-open"></i>
+            <h2>invitation</h2>
+            <p>Helping you curate the best E-invites.</p>
+        </div>
+        <div class="services-col">
+            <i class="fas fa-camera"></i>
+            <h2>Photography & Video</h2>
+            <p>Helping you capture your most important moments.</p>
+        </div>
+        <div class="services-col">
+            <i class="fas fa-brush"></i>
+            <h2>Beauty & Makeup</h2>
+            <p>Helping you look the best on your day.</p>
+        </div>
+        <div class="services-col">
+            <i class="fab fa-pagelines"></i>
+            <h2>Wedding flowers</h2>
+            <p>Helping you decorate the place the best you can think.</p>
+        </div>
+        <div class="services-col">
+            <i class="fas fa-birthday-cake"></i>
+            <h2>wedding cake</h2>
+            <p>Helping you make your big day memorable with a cake.</p>
+        </div>
+        <div class="services-col">
+            <i class="fas fa-music"></i>
+            <h2>music band</h2>
+            <p>Helping you enjoy your event with the coolest music bands available</p>
+        </div>
+        <div class="services-col">
+            <i class="fas fa-utensils"></i>
+            <h2>Catering</h2>
+            <p>Helping you with the best food services.</p>
+        </div>
+        <div class="services-col">
+            <i class="fas fa-ring"></i>
+            <h2>Jewellery</h2>
+            <p>Helping you look the best with the Jewellery.</p>
+        </div>
+    </div>
+    
+</section>
+
+<!------------------E-invitation------------------>
+<section class="invite" id="invite">
+  <div class="title">
+      <h1>G<span>allery</span></h1>
+    
+  </div>
+  <div class="invitation-row">
+      <div class="invitation-box">
+        <a href="{% static '/images/im1.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/im1.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/im2.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/im2.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/im3.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/im3.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/im4.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/im4.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/im5.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/im5.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/im6.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/im6.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/venue-1.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/venue-1.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/baby.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/baby.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/cor1.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/cor1.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/cor2.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/cor2.jpg'%}" alt="">
+        </a>   
+      </div>
+
+      <div class="invitation-box">
+        <a href="{% static '/images/diwali.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/diwali.jpg'%}" alt="">
+        </a>   
+      </div>
+      
+      <div class="invitation-box">
+        <a href="{% static '/images/holi.jpg'%}" data-lightbox="models">
+            <img src="{% static '/images/holi.jpg'%}" alt="">
+        </a>   
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+  </div>
+</section>
+<center>
+<div class="containere">
+    
+<form action="" method="POST">
+    {% csrf_token %}
+ {{form.as_p}}
+ <button type="submit" id="but">SUBMIT</button>
+</form>
+<h1>Enquiry Form</h1>
+</div>
+<center>
+
+
+
+<!--------------------------------------------footer section--------------------------->
+<footer id="contact">
+  <div class="container">
+      <div class="f-container">
+          <h2>SHINDIGER EVENTS</h2><br>
+          
+          <div>
+              
+          </div>
+          <div class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-pinterest"></i>
+          </div>
+      </div>
+      <div class="f-container">
+          <h2>Our Location</h2>
+          <a href="#"><i class="fas fa-angle-right"></i>Bengaluru</a>
+          <a href="#"><i class="fas fa-angle-right"></i>Hydreabad</a>
+          <a href="#"><i class="fas fa-angle-right"></i>Goa</a>
+          
+          </div>
+          
+          <div class="f-container ">
+              <h2>Our Newsletter</h2>
+              <p>Subscribe for latest updates</p>
+              <input type="text " placeholder="Enter Your Email ">
+              <button class="btn ">Subscribe</button>
+              </div>
+      </div>
+  </footer>
+  <div class="copyright ">
+      <p>Copyright ©2022 All Rights Reserved | Knowledge Place KP</p>
+  </div>
+</body>
+
+<script src="lightbox-plus-jquery.js"></script>
+
+<script>
+let menu = document.querySelector('#menu-bar');
+let head = document.querySelector('.head .navbar');
+
+menu.onclick = () => {
+  head.classList.toggle('active');
+};
+
+window.onscroll = () => {
+  head.classList.remove('active');
+  if (window.scrollY > 60) {
+      document.querySelector('#menu-bar').classList.add('active');
+  } else {
+      document.querySelector('#menu-bar').classList.remove('active');
+  }
+};
+</script>    
+</html>
